@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portf.css">
+    <script src="portf.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="img/logomarlin.jpg" class="logo" alt="">
+            <h1>Marlin</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                <li><a href="#c4"  rel="noopener noreferrer">Mes services</a></li>
+                <li><a href="http://www.likedee.com" target="_blank" rel="noopener noreferrer">Linkedee</a></li>
+                <li><a href="mailto:gordonne@gmail.com">Me contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="moi">
+        <div class="image">
+            <img src="img/IMGroland.jpg" id="moi1" alt="">
+        </div>
+        <div class="text">
+        <p>Actuellement etudiant en Licence 3 ASRI a ESSIG, je suis passionne par la programation.
+            <br> je suis en perpetuel apprentissage </p>
+        </div>
+    </div>
+    <div class="t0">
+        <img src="img/gestion-autonome-de-son-site-internet.jpg" alt="">
+        <div class="t1">
+            <b>BIENVENUE SUR MON PORTFOLIO</b>
+        </div>
+        <div class="bd">
+            <b>Si vous souhaitez telecharger mon cv</b><br>
+            <button id="downloadBtn">
+                <!-- <span class="shadow"></span>
+                <span class="edge"></span>
+                <span class="front">C'est ici</span> -->
+                <a href="img/CV de Guy Roland MOMBO NDINGA (1).pdf" download="woof">Faites-le ici</a>
+            </button>
+        </div>
+    </div>
+    <p class="p1">Voici quelques projets auxquels j'ai participe:</p><br>
+    <p>Ici nous avons le projet Asterix qui consiste a la mise en place d'un serveur telephonique sur IP</p>
+    <div class="t2">
+        <div class="t3"><img src="img/sc1.png" alt=""></div>
+        <div class="t4"><img src="img/sc2.png" alt=""></div>
+        <div class="t5"><img src="img/sc3.png" alt=""></div>
+    </div>
+    <!-- <div class="t2">
+        <div class="carrousel">
+            <div class="images">
+                <img src="sc1.png" alt="">
+                <img src="sc2.png" alt="">
+                <img src="sc3.png" alt="">
+                <img src="sc4.png" alt="">
+            </div>
+            <button class="prev">&#10094</button>
+            <button class="next">&#10095</button>
+        </div>
+    </div> -->
+
+    <div class="service" id="c4">
+        <h2>Les services que je propose comprennent:</h2>
+    </div>
+    <div class="liste">
+        <div class="main"> Maintenance informatique</div>
+        <div class="devlog">Developpement de logiciels Desktop/mobile</div>
+        <div class="devf">Developpement front-end</div>
+        <div class="devb">Developpement back-end</div>
+    </div>
+    <!-- Mon code du formulaire
+    <div class="formulaire">
+        <p>Prenez rendez-vous pour qu'on puisse discuter de votre projet</p>
+        <div class="f1">
+            <form action="">
+                <input type="text" name="" id="v1" placeholder="Nom">
+                <input type="text" id="v2" placeholder="Prenom">
+                <input type="date" name="" id="v4">
+                <input type="submit" id="v5" value="soumettre">
+            </form>
+        </div>
+        <div>
+            <input type="text" name="" id="v3"placeholder="Expliquez en quelques lignes votre projet">
+        </div>
+    </div> -->
+    <div class="form-container">
+        <h2>Prenez rendez-vous</h2>
+        <form action="https://formspree.io/f/mzzdgokd" method="post">
+            <div class="form-group">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Date du rendez-vous :</label>
+                <input type="datetime-local" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Votre avis :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Envoyer</button> 
+            <!-- <input type="submit" value="Envoyer"> -->
+        </form>
+    </div>
+    <h2>MES COMPETENCES</h2>
+    <div class="compet">
+        
+        <div class="social"><b class="so">Social</b>
+            <hr>
+            <ul class="cop">
+                <p class="co">Dynamique</p>
+                <p class="co">Travail de groupe</p>
+                <p class="co">Ponctuel</p>
+            </ul>
+        </div>
+        <div class="progra"><b class="pr">Programation</b>
+            <hr>
+            <ul class="cop">
+                <p class="co">HTML</p>
+                <p class="co">CSS</p>
+                <p class="co">Python</p>
+            </ul>
+        </div>
+        <div class="infog"><b class="di">Divers</b>
+            <hr>
+            <ul class="cop">
+                <p class="co">Word</p>
+                <p class="co">PowerPoint</p>
+                <p class="co">Canva</p>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div class="ct">
+            <div class="re">
+                <p>Contact</p>
+                <hr class="h">
+                <div class="fi">
+                    <a href="http://telegram.com" target="_blank" class="lo"><img src="img\telegram-black-icon.png" alt=""></a>
+                    <a href="http://facebook.com" target="_blank"  class="lo"><img src="img\icons8-facebook-50.png" alt=""></a>
+                    <a href="http://whatsapp.com" target="_blank"  class="lo"><img src="img\icons8-whatsapp-50.png" alt=""></a>
+                    <a href="https://www.instagram.com/venom.780" target="_blank"  class="lo"><img src="img\instagram-black.png" alt=""></a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script>
+        document.getElementById('downloadBtn').addEventListener('click', function(){
+            const link = document.createElement('a');
+            link.href = 'CV de Guy Roland MOMBO NDINGA (1).pdf';
+            link.download = 'CV de Guy Roland MOMBO NDINGA (1).pdf';
+            link.click();
+        })
+    </script> -->
+</body>
+</html>
