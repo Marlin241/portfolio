@@ -317,7 +317,7 @@ form {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    background-image: url(gestion-autonome-de-son-site-internet.jpg);
+    background-image: url(img/gestion-autonome-de-son-site-internet.jpg);
     background-attachment: fixed;
 }
 form {
@@ -368,7 +368,7 @@ form {
     height: 400px;
     padding: 30px 50px;
     border: 2px solid wheat;
-    background-image: url(fonctionnement-du-web.jpg);
+    background-image: url(img/fonctionnement-du-web.jpg);
     background-attachment: fixed;
     border-radius: 10px;
 }
